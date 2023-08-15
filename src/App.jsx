@@ -8,7 +8,10 @@ const suma = ( ) => {
 setCounter(counter + 1 )
 }
 const resta = () => {
-  setCounter(counter -1)
+  if(counter >= 1){
+
+    setCounter(counter -1)
+  }
 }
 const reset = () => {
   setCounter(0)
